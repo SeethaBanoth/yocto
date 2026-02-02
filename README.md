@@ -76,6 +76,14 @@ Layers help organize and isolate functionality.
 ```bash
 bitbake-layers create-layer meta-custom
 bitbake-layers add-layer meta-custom
+A layer typically contains:
+
+meta-custom/
+├── conf/layer.conf
+├── recipes-*/
+
+
+👉 Custom layers are used to add board-specific or application-specific features
 
 ---
 
