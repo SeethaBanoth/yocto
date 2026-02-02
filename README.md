@@ -73,7 +73,6 @@ A layer is a logical collection of:
 Layers help organize and isolate functionality.
 
 ### Create a custom layer:
-```bash
 bitbake-layers create-layer meta-custom
 bitbake-layers add-layer meta-custom
 A layer typically contains:
