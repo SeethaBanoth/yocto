@@ -73,6 +73,7 @@ A layer is a logical collection of:
 Layers help organize and isolate functionality.
 
 ### Create a custom layer:
+```bash
 bitbake-layers create-layer meta-custom
 bitbake-layers add-layer meta-custom
 A layer typically contains:
@@ -80,7 +81,7 @@ A layer typically contains:
 meta-custom/
 ├── conf/layer.conf
 ├── recipes-*/
-
+bash```
 
 👉 Custom layers are used to add board-specific or application-specific features
 
@@ -184,6 +185,3 @@ During Yocto builds, several common errors are encountered.
 
 ---
 
-## 📌 One-line interview summary
-
-**BitBake executes a structured task pipeline to build Yocto images, and most build errors are related to missing layers, dependencies, or configuration issues.**
