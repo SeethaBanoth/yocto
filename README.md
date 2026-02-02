@@ -81,7 +81,7 @@ A layer typically contains:
 meta-custom/
 ├── conf/layer.conf
 ├── recipes-*/
-bash```
+```bash
 
 👉 Custom layers are used to add board-specific or application-specific features
 
@@ -111,7 +111,7 @@ Customizations are done using **custom layers**.
 
 ---
 
-## 7️⃣ What is BitBake execution pipeline?
+## 6️⃣ What is BitBake execution pipeline?
 
 **Answer:**
 
@@ -149,7 +149,7 @@ do_rootfs
 
 ---
 
-## 8️⃣ What are the common errors faced while building Yocto projects?
+## 7️⃣ What are the common errors faced while building Yocto projects?
 
 **Answer:**
 
